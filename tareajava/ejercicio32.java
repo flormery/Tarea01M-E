@@ -1,5 +1,6 @@
 import java.util.Scanner;
-public class ejercicio32.java{
+public class ejercicio{
+  
   public static void main(string args[]){
     Scaneer entrada=new scanner(system.in);
     float pagahora=0;
