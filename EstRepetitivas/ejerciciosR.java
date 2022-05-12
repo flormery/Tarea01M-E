@@ -1,4 +1,6 @@
-    public class ejerciciosR {
+import java.util.Scanner;
+
+public class ejerciciosR {
         /**
          * InnerejerciciosR
          */
@@ -26,12 +28,22 @@
             } while (numInit<=20);
             
         }
-
+        public static void nombreinvertiso() {
+            Scanner It=new Scanner(System.in);
+            System.out.println("Ingrese su nombre:");
+            String nombre=It.next();
+            for (int i = nombre.length()-1; i >=0;i--) {
+                System.out.println(nombre.charAt(i));
+            }
+            
+        }
 
 
      public static void main(String[] args) {
-         System.out.println("imprime While:"); imprimirwhileN1_20();
+         /*System.out.println("imprime While:"); imprimirwhileN1_20();
          System.out.println("imprime Do while:"); imprimirDowhileN1_20();
-         System.out.println("imprime flor:"); imprimirForN1_20();
+         System.out.println("imprime flor:"); imprimirForN1_20();*/
+         
+         nombreinvertiso();
      }
 }
