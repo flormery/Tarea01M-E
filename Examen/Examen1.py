@@ -80,14 +80,42 @@ def ejercicio3 ():
     else:
         total=9
     #Datos de salida
-    print(f"El resultado es:{total}")
-def ejercicio4 ():
-    #Definir variables 
-       
-      
+    print(f"El resultado es:{total}") 
+def ejercicio4():
+    #Definir variable
+    edad:float
+    sexo:str
+    mensaje:str
+    vacuna:float
+    #Datos de entrada
+    edad=float(input("Ingrese la edad: "))
+    sexo=str(input("ingrese su sexo(masculino o femenino): "))
+    #Proceso
+    if edad>=70:
+        mensaje=("C")
+    elif edad>=16 and edad<=69 and sexo=="masculino" :
+        mensaje=("A")
+    elif edad>=16 and edad<=69 and sexo=="femenino" :
+        mensaje=("B")
+    else:
+        mensaje:("A")
+    #datos de salida
+    print(f"El tipo de vacuna es:{mensaje}")
 
-
-
-
-
-ejercicio3()
+   #Definir variables
+#examenMEFLL
+#Definir variables
+numero=float
+#Datos de entrada
+numero=float(input("Ingrese el numero del ejercicio: "))
+#proceso
+if numero==1:
+    ejercicio1()
+elif numero==2:
+    ejercicio2()
+elif numero==3:
+    ejercicio3()
+else:
+    ejercicio4()
+#Datos de salida 
+print(f"gracias por verlo")
