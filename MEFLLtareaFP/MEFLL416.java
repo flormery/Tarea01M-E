@@ -1,8 +1,8 @@
-package tareaFP;
+package MEFLLtareaFP;
 
 import java.util.Scanner;
 
-public class Ejercicio416 {
+public class MEFLL416 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int billetes_10, billetes_20, billetes_50, billetes_100, billetes_200;

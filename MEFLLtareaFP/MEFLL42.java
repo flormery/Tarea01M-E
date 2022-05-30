@@ -1,6 +1,6 @@
-package tareaFP;
+package MEFLLtareaFP;
 
-public class ejercicio42 {
+public class MEFLL42 {
     //Definir variables
     int n,tarjeta,hamburguesa;
     double cantidad=0; 

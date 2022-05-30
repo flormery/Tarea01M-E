@@ -1,9 +1,9 @@
-package tareaFP;
+package MEFLLtareaFP;
 
 /**
  * Ejercicio411
  */
-public class Ejercicio425 {
+public class MEFLL425 {
     public static void main(String[] args) {
       double numeros = 0;
       double numeroIntroducido = 0;

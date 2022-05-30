@@ -1,6 +1,6 @@
-package tareaFP;
+package MEFLLtareaFP;
 
-public class Ejercicio426 {
+public class MEFLL426 {
         public static void main(String[] args) {
             }{
             System.out.print("Introduzca un número: ");

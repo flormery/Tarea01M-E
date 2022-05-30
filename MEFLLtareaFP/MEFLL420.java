@@ -1,8 +1,8 @@
-package tareaFP;
+package MEFLLtareaFP;
 
 import java.util.Scanner;
 
-public class Ejercicio420 {
+public class MEFLL420 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int monedas_de_1, monedas_de_2, monedas_de_5, billetes_de_10, billetes_de_20, billetes_de_50;

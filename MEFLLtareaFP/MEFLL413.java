@@ -1,8 +1,8 @@
-package tareaFP;
+package MEFLLtareaFP;
 
 import java.util.Scanner;
 
-public class Ejercicio413 {
+public class MEFLL413 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int aprobados, i, n, reprobados;

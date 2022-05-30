@@ -1,6 +1,6 @@
-package tareaFP;
+package MEFLLtareaFP;
 
-public class Ejercicio424 {
+public class MEFLL424 {
     public static void main(String[] args) {
     
         int intentos = 4;

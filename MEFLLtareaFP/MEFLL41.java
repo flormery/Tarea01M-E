@@ -1,11 +1,11 @@
-package tareaFP;
+package MEFLLtareaFP;
 
 import java.util.Scanner;
 
 /**
  * ejercicio
  */
-public class ejercicio41 {
+public class MEFLL41 {
 
     static Scanner it=new Scanner (System.in);
     public static void ejercicio41() {
