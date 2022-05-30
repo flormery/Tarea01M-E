@@ -3,7 +3,7 @@ package tareaFP;
 /**
  * Ejercicio411
  */
-public class Ejercicio411 {
+public class Ejercicio425 {
     public static void main(String[] args) {
       double numeros = 0;
       double numeroIntroducido = 0;
