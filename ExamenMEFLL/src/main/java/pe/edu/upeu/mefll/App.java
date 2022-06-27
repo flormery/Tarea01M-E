@@ -1,5 +1,9 @@
 package pe.edu.upeu.mefll;
 
+import java.util.Scanner;
+
+import pe.edu.upeu.mefll.Examen.ResolucionExamen;
+
 /**
  * Hello world!
  *
@@ -18,5 +22,6 @@ public class App
             case 5: new ResolucionExamen().ExamenMEFLL05(); break;
             default: System.err.println("Esa opcion no existe"); break;
         }
+        System.out.println( "Hello World!" );
     }
 }
