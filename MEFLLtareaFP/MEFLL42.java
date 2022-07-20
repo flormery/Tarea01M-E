@@ -5,7 +5,6 @@ public class MEFLL42 {
     int n,tarjeta,hamburguesa;
     double cantidad=0; 
     //Datos de entrada
-    System.out.println("Sencillo(1) \nDoble(2) \nTriple(3)");
     
 
 
