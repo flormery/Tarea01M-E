@@ -487,9 +487,9 @@ public class Transformadas {
                 
     public void matriz33MEFLL() {
         String[][] matriz;
-        System.out.println("Ingrese dimesion de Matriz:");
+        System.out.println("Ingrese la dimesion de la matriz:");
         int dimension = cs.nextInt();
-        System.out.println("Ingrese valor inicial:");
+        System.out.println("Ingrese el valor inicial:");
         int valor = cs.nextInt();
         matriz = new String[dimension][dimension];
         for (int v = matriz.length - 1; v >= matriz.length / 2; v--) {
@@ -517,9 +517,9 @@ public class Transformadas {
     }
     public void matriz34MEFLL() {
         String[][] matriz;
-        System.out.println("Ingrese dimesion de Matriz:");
+        System.out.println("Ingrese la dimesion de la Matriz:");
         int dimension = cs.nextInt();
-        System.out.println("Ingrese valor inicial:");
+        System.out.println("Ingrese el valor inicial:");
         int valor = cs.nextInt();
         matriz = new String[dimension][dimension];
         for (int v = matriz.length - 1; v >= matriz.length / 2; v--) {
@@ -545,11 +545,6 @@ public class Transformadas {
         }
         imprimirMatriz(matriz);
     }
-
-
-
-
-
     public void imprimirMatriz(String[][] m) {
         for (int f = 0; f < m.length; f++) {
             for (int c = 0; c < m[0].length; c++) {
