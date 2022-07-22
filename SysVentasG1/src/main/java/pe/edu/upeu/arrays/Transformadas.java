@@ -300,9 +300,9 @@ public class Transformadas {
 
     public void matriz26MEFLL() {
         String[][] matriz;
-        System.out.println("Ingrese dimesion de Matriz:");
+        System.out.println("Ingrese la dimesion de la  Matriz:");
         int dimension = cs.nextInt();
-        System.out.println("Ingrese valor inicial:");
+        System.out.println("Ingrese el valor inicial:");
         int valor = cs.nextInt();
         matriz = new String[dimension][dimension];
         for (int f = 0; f < matriz.length; f++) {
@@ -342,6 +342,210 @@ public class Transformadas {
         }
         imprimirMatriz(matriz);
     }
+    public void matriz28MEFLL() {
+            System.out.println("Ingrese dimesion de Matriz:");
+            int dimension = cs.nextInt();
+            System.out.println("Ingrese valor inicial:");
+            int valor = cs.nextInt();
+            String[][] matriz = new String[dimension][dimension];
+            for (int f = (matriz.length - 1); f >= 0; f--) {
+                if (f % 2 == 0) {
+                    for (int c = 0; c < matriz.length; c++) {
+                        matriz[f][c] = "" + valor;
+                        valor++;
+                    }
+                } else {
+                    for (int c = (matriz.length - 1); c >= 0; c--) {
+                        matriz[f][c] = "" + valor;
+                        valor++;
+                    }
+                }
+            }
+            imprimirMatriz(matriz);
+        }
+        public void matriz29MEFLL() {
+                String[][] matriz;
+                System.out.println("Ingrese dimesion de Matriz:");
+                int dimension = cs.nextInt();
+                System.out.println("Ingrese valor inicial:");
+                int valor = cs.nextInt();
+                matriz = new String[dimension][dimension];
+                for (int v = 0; v < dimension / 2; v++) {
+                    for (int ls = v; ls < dimension - 1 - v; ls++) {
+                        matriz[v][ls] = String.valueOf(valor);
+                        valor++;
+                    }
+                    for (int ld = v; ld < dimension - 1 - v; ld++) {
+                        matriz[ld][dimension - 1 - v] = String.valueOf(valor);
+                        valor++;
+                    }
+                    for (int lin = dimension - 1 - v; lin > v; lin--) {
+                        matriz[dimension - 1 - v][lin] = String.valueOf(valor);
+                        valor++;
+                    }
+                    for (int liz = dimension - 1 - v; liz > v; liz--) {
+                        matriz[liz][v] = String.valueOf(valor);
+                        valor++;
+                    }
+                }
+                if (dimension % 2 != 0) {
+                    matriz[dimension / 2][dimension / 2] = String.valueOf(valor);
+                }
+                imprimirMatriz(matriz);
+            }
+            public void matriz30MEFLL() {
+                    String[][] matriz;
+                    System.out.println("Ingrese la dimesion de la Matriz:");
+                    int dimension = cs.nextInt();
+                    System.out.println("Ingrese el valor inicial:");
+                    int valor = cs.nextInt();
+                    matriz = new String[dimension][dimension];
+                    for (int v = 0; v < dimension / 2; v++) {
+                        for (int ld = v; ld < dimension - 1 - v; ld++) {
+                            matriz[ld][dimension - 1 - v] = String.valueOf(valor);
+                            valor++;
+                        }
+                        for (int lin = dimension - 1 - v; lin > v; lin--) {
+                            matriz[dimension - 1 - v][lin] = String.valueOf(valor);
+                            valor++;
+                        }
+                        for (int liz = dimension - 1 - v; liz > v; liz--) {
+                            matriz[liz][v] = String.valueOf(valor);
+                            valor++;
+                        }
+                        for (int ls = v; ls < dimension - 1 - v; ls++) {
+                            matriz[v][ls] = String.valueOf(valor);
+                            valor++;
+                        }
+                    }
+                    if (dimension % 2 != 0) {
+                        matriz[dimension / 2][dimension / 2] = String.valueOf(valor);
+                    }
+                    imprimirMatriz(matriz);
+                }
+                public void matriz31MEFLL() {
+                    String[][] matriz;
+                    System.out.println("Ingrese la dimesion de la  matriz:");
+                    int dimension = cs.nextInt();
+                    System.out.println("Ingrese el valor inicial:");
+                    int valor = cs.nextInt();
+                    matriz = new String[dimension][dimension];
+                    for (int v = 0; v < dimension / 2; v++) {
+                        for (int lin = dimension - 1 - v; lin > v; lin--) {
+                            matriz[dimension - 1 - v][lin] = String.valueOf(valor);
+                            valor++;
+                        }
+                        for (int liz = dimension - 1 - v; liz > v; liz--) {
+                            matriz[liz][v] = String.valueOf(valor);
+                            valor++;
+                        }
+                        for (int ls = v; ls < dimension - 1 - v; ls++) {
+                            matriz[v][ls] = String.valueOf(valor);
+                            valor++;
+                        }
+                        for (int ld = v; ld < dimension - 1 - v; ld++) {
+                            matriz[ld][dimension - 1 - v] = String.valueOf(valor);
+                            valor++;
+                        }
+                    }
+                    if (dimension % 2 != 0) {
+                        matriz[dimension / 2][dimension / 2] = String.valueOf(valor);
+                    }
+                    imprimirMatriz(matriz);
+                }
+            
+                public void matriz32MEFLL() {
+                    String[][] matriz;
+                    System.out.println("Ingrese la dimesion de la matriz:");
+                    int dimension = cs.nextInt();
+                    System.out.println("Ingrese el valor inicial:");
+                    int valor = cs.nextInt();
+                    matriz = new String[dimension][dimension];
+                    for (int v = 0; v < dimension / 2; v++) {
+                        for (int liz = dimension - 1 - v; liz > v; liz--) {
+                            matriz[liz][v] = String.valueOf(valor);
+                            valor++;
+                        }
+                        for (int ls = v; ls < dimension - 1 - v; ls++) {
+                            matriz[v][ls] = String.valueOf(valor);
+                            valor++;
+                        }
+                        for (int ld = v; ld < dimension - 1 - v; ld++) {
+                            matriz[ld][dimension - 1 - v] = String.valueOf(valor);
+                            valor++;
+                        }
+                        for (int lin = dimension - 1 - v; lin > v; lin--) {
+                            matriz[dimension - 1 - v][lin] = String.valueOf(valor);
+                            valor++;
+                        }
+                    }
+                    if (dimension % 2 != 0) {
+                        matriz[dimension / 2][dimension / 2] = String.valueOf(valor);
+                    }
+                    imprimirMatriz(matriz);
+                }
+                
+    public void matriz33MEFLL() {
+        String[][] matriz;
+        System.out.println("Ingrese dimesion de Matriz:");
+        int dimension = cs.nextInt();
+        System.out.println("Ingrese valor inicial:");
+        int valor = cs.nextInt();
+        matriz = new String[dimension][dimension];
+        for (int v = matriz.length - 1; v >= matriz.length / 2; v--) {
+            for (int ls = v; ls > (dimension - 1) - v; ls--) {
+                matriz[(dimension - 1) - v][ls] = String.valueOf(valor);
+                valor++;
+            }
+            for (int liz = (dimension - 1) - v; liz < v; liz++) {
+                matriz[liz][(dimension - 1) - v] = String.valueOf(valor);
+                valor++;
+            }
+            for (int lin = (dimension - 1) - v; lin < v; lin++) {
+                matriz[v][lin] = String.valueOf(valor);
+                valor++;
+            }
+            for (int ld = v; ld > (dimension - 1) - v; ld--) {
+                matriz[ld][v] = String.valueOf(valor);
+                valor++;
+            }
+        }
+        if (dimension % 2 != 0) {
+            matriz[dimension / 2][dimension / 2] = String.valueOf(valor);
+        }
+        imprimirMatriz(matriz);
+    }
+    public void matriz34MEFLL() {
+        String[][] matriz;
+        System.out.println("Ingrese dimesion de Matriz:");
+        int dimension = cs.nextInt();
+        System.out.println("Ingrese valor inicial:");
+        int valor = cs.nextInt();
+        matriz = new String[dimension][dimension];
+        for (int v = matriz.length - 1; v >= matriz.length / 2; v--) {
+            for (int liz = (dimension - 1) - v; liz < v; liz++) {
+                matriz[liz][(dimension - 1) - v] = String.valueOf(valor);
+                valor++;
+            }
+            for (int lin = (dimension - 1) - v; lin < v; lin++) {
+                matriz[v][lin] = String.valueOf(valor);
+                valor++;
+            }
+            for (int ld = v; ld > (dimension - 1) - v; ld--) {
+                matriz[ld][v] = String.valueOf(valor);
+                valor++;
+            }
+            for (int ls = v; ls > (dimension - 1) - v; ls--) {
+                matriz[(dimension - 1) - v][ls] = String.valueOf(valor);
+                valor++;
+            }
+        }
+        if (dimension % 2 != 0) {
+            matriz[dimension / 2][dimension / 2] = String.valueOf(valor);
+        }
+        imprimirMatriz(matriz);
+    }
+
 
 
 
